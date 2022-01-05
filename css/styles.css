@@ -618,3 +618,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+
+.card link {
+    display: block;
+}
