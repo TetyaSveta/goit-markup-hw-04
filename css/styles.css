@@ -44,7 +44,7 @@ body {
     list-style: none;
 }
 
-.link {
+a {
     text-decoration: none;
 }
 
@@ -115,6 +115,10 @@ body {
 .header-link:hover,
 .header-link:focus {
     color: var(--acent-color)
+}
+
+.header-link.current {
+    color: var(--acent-color);
 }
 
 .header-email-link {
@@ -592,9 +596,9 @@ body {
     margin-bottom: 30px;
 }
 
-.portfolio-item:hover {
+/* .portfolio-item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .portfolio-content {
     padding: 20px 24px 20px 24px;
@@ -619,6 +623,10 @@ body {
     color: var(--main-text-color);
 }
 
-.card link {
+.card-link {
     display: block;
+}
+    
+.card-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
